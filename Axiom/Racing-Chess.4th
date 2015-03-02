@@ -3,6 +3,7 @@ $passTurnForced ON
 {players
 	{player}	Red		{random}
 	{player}	Blue	{random}
+	{neutral}	Referee	{random}
 players}
 
 {turn-order
@@ -27,8 +28,6 @@ CREATE #TopScores
 	10 , 8 , 6 , 5 , 4 , 3 , 2 , 1 , 0
 
 
-LOAD Racing-Chess-Board.4th
-
 \ because pieces are not defined now
 1 CONSTANT @oRook
 2 CONSTANT @oKnight
@@ -38,6 +37,9 @@ LOAD Racing-Chess-Board.4th
 6 CONSTANT @Knight
 7 CONSTANT @Bishop
 8 CONSTANT @Queen
+10 CONSTANT @Top0
+	
+LOAD Racing-Chess-Board.4th
 
 LOAD Racing-Chess-Moves.4th
 
@@ -50,6 +52,10 @@ LOAD Racing-Chess-Moves.4th
 	{piece}	Knight	{moves} Knight-moves
 	{piece}	Bishop	{moves} Bishop-moves
 	{piece}	Queen	{moves} Queen-moves
+
+	{piece} _Dummy
+	
+	{piece} Top0
 	{piece} Top1
 	{piece} Top2
 	{piece} Top3

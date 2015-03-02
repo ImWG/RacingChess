@@ -280,6 +280,7 @@ VARIABLE $BeforeLine
 		DROP
 	ENDIF
 )	
+
 	current-player Red = IF
 		COMPILE ScoreRed+
 	ELSE

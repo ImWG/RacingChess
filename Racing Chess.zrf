@@ -21,21 +21,13 @@
 	(board
 		(image "Images/Racing Chess/board.bmp")
 		(grid
-			(start-rectangle 1 1 37 37)
+			(start-rectangle 2 2 38 38)
 			(dimensions
 				("a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p" (36 0))
 				("1/2/3/4/5/6/7/8/9/10/11" (0 36))
 			)
 		)
 		(dummy offboard)
-		;(positions (offboard 160 160 180 180))
-		(grid
-			(start-rectangle 160 160 196 196)
-			(dimensions
-				("xa/xb" (0 36))
-				("1/2/3/4" (36 0))
-			)
-		)
 		(kill-positions
 			a1 a2 b1       o1 p1 p2
 			a10 a11 b11 o11 p10 p11
@@ -89,39 +81,47 @@
 	)
 	
 	(piece
+		(name _Dummy)(dummy)
+	)
+	
+	(piece
 		(name Top1)(dummy)
-		(image Red "Images\15_Puzzle\1.bmp" Blue "Images\15_Puzzle\1.bmp")
+		(image Red "Images\15_Puzzle\SHaag\1.bmp" Blue "Images\15_Puzzle\SHaag\1.bmp")
 	)
 	(piece
 		(name Top2)(dummy)
-		(image Red "Images\15_Puzzle\2.bmp" Blue "Images\15_Puzzle\2.bmp")
+		(image Red "Images\15_Puzzle\SHaag\2.bmp" Blue "Images\15_Puzzle\SHaag\2.bmp")
 	)
 	(piece
 		(name Top3)(dummy)
-		(image Red "Images\15_Puzzle\3.bmp" Blue "Images\15_Puzzle\3.bmp")
+		(image Red "Images\15_Puzzle\SHaag\3.bmp" Blue "Images\15_Puzzle\SHaag\3.bmp")
 	)
 	(piece
 		(name Top4)(dummy)
-		(image Red "Images\15_Puzzle\4.bmp" Blue "Images\15_Puzzle\4.bmp")
+		(image Red "Images\15_Puzzle\SHaag\4.bmp" Blue "Images\15_Puzzle\SHaag\4.bmp")
 	)
 	(piece
 		(name Top5)(dummy)
-		(image Red "Images\15_Puzzle\5.bmp" Blue "Images\15_Puzzle\5.bmp")
+		(image Red "Images\15_Puzzle\SHaag\5.bmp" Blue "Images\15_Puzzle\SHaag\5.bmp")
 	)
 	(piece
 		(name Top6)(dummy)
-		(image Red "Images\15_Puzzle\6.bmp" Blue "Images\15_Puzzle\6.bmp")
+		(image Red "Images\15_Puzzle\SHaag\6.bmp" Blue "Images\15_Puzzle\SHaag\6.bmp")
 	)
 	(piece
 		(name Top7)(dummy)
-		(image Red "Images\15_Puzzle\7.bmp" Blue "Images\15_Puzzle\7.bmp")
+		(image Red "Images\15_Puzzle\SHaag\7.bmp" Blue "Images\15_Puzzle\SHaag\7.bmp")
 	)
 	(piece
 		(name Top8)(dummy)
-		(image Red "Images\15_Puzzle\8.bmp" Blue "Images\15_Puzzle\8.bmp")
+		(image Red "Images\15_Puzzle\SHaag\8.bmp" Blue "Images\15_Puzzle\SHaag\8.bmp")
 	)
 	(piece
 		(name Top9)(dummy)
-		(image Red "Images\15_Puzzle\9.bmp" Blue "Images\15_Puzzle\9.bmp")
+		(image Red "Images\15_Puzzle\SHaag\9.bmp" Blue "Images\15_Puzzle\SHaag\9.bmp")
+	)
+	(piece
+		(name Top0)(dummy)
+		(image Red "Images\15_Puzzle\SHaag\O.bmp" Blue "Images\15_Puzzle\SHaag\O.bmp")
 	)
 )
