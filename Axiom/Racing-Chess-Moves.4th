@@ -263,7 +263,7 @@ VARIABLE $BeforeLine
 	beforeline? $BeforeLine !
 ;
 : Finish ( - )
-	9 \ Top1's Num
+	11 \ Top1's Num
 	NumOfFinished @ +
 	DUP 17 > IF
 		DROP 17

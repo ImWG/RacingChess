@@ -45,39 +45,39 @@
 	(piece
 		(name oRook)
 		(notation "Rook(Starting)")
-		(image Red "Images\Chess\WRook.bmp" Blue "Images\Chess\bRook.bmp")
+		(image Red "Images\Racing Chess\RRook.bmp" Blue "Images\Racing Chess\BRook.bmp")
 		(moves (from add))
 	)
 	(piece
 		(name oKnight)
 		(notation "Knight(Starting)")
-		(image Red "Images\Chess\WKnight.bmp" Blue "Images\Chess\bKnight.bmp")
+		(image Red "Images\Racing Chess\RKnight.bmp" Blue "Images\Racing Chess\BKnight.bmp")
 	)
 	(piece
 		(name oBishop)
 		(notation "Bishop(Starting)")
-		(image Red "Images\Chess\WBishop.bmp" Blue "Images\Chess\bBishop.bmp")
+		(image Red "Images\Racing Chess\RBishop.bmp" Blue "Images\Racing Chess\BBishop.bmp")
 	)
 	(piece
 		(name oQueen)
 		(notation "Queen(Starting)")
-		(image Red "Images\Chess\WQueen.bmp" Blue "Images\Chess\bQueen.bmp")
+		(image Red "Images\Racing Chess\RQueen.bmp" Blue "Images\Racing Chess\BQueen.bmp")
 	)	
 	(piece
 		(name Rook)
-		(image Red "Images\Chess\WRook.bmp" Blue "Images\Chess\bRook.bmp")
+		(image Red "Images\Racing Chess\RRook.bmp" Blue "Images\Racing Chess\BRook.bmp")
 	)
 	(piece
 		(name Knight)
-		(image Red "Images\Chess\WKnight.bmp" Blue "Images\Chess\bKnight.bmp")
+		(image Red "Images\Racing Chess\RKnight.bmp" Blue "Images\Racing Chess\BKnight.bmp")
 	)
 	(piece
 		(name Bishop)
-		(image Red "Images\Chess\WBishop.bmp" Blue "Images\Chess\bBishop.bmp")
+		(image Red "Images\Racing Chess\RBishop.bmp" Blue "Images\Racing Chess\BBishop.bmp")
 	)
 	(piece
 		(name Queen)
-		(image Red "Images\Chess\WQueen.bmp" Blue "Images\Chess\bQueen.bmp")
+		(image Red "Images\Racing Chess\RQueen.bmp" Blue "Images\Racing Chess\BQueen.bmp")
 	)
 	
 	(piece
