@@ -3,7 +3,6 @@ $passTurnForced ON
 {players
 	{player}	Red		{random}
 	{player}	Blue	{random}
-	{neutral}	Referee	{random}
 players}
 
 {turn-order
@@ -101,3 +100,5 @@ pieces}
 		#UnknownScore
 	ENDIF
 ;
+
+\ LOAD Racing-Chess-Engine.4th
